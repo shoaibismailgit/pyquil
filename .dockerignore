@@ -1,0 +1,14 @@
+docs
+.coveragerc
+.flake8
+.git
+.gitignore
+.gitlab-ci.yml
+.github
+ACKNOWLEDGEMENTS.md
+CHANGELOG.md
+CONTRIBUTING.md
+Makefile
+MANIFEST.in
+mypy.ini
+NOTICE.md
