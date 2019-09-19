@@ -72,3 +72,4 @@ def test_run_and_measure_qubits(client_configuration: QCSClient):
     bitstrings = wfnsim.run_and_measure(bell, qubits=[0, 100], trials=1000)
     assert np.all(bitstrings[:, 1] == 0)
     assert 0.4 < np.mean(bitstrings[:, 0]) < 0.6
+
