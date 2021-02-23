@@ -195,3 +195,4 @@ def test_strip_gate_modifiers():
     assert _strip_modifiers(g2) == g0
     assert _strip_modifiers(g2, 3) == g0
     assert _strip_modifiers(g2, 1) == g1
+
