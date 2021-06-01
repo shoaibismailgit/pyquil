@@ -234,3 +234,4 @@ def test_pickle_QPU_execution_response(mock_encrypted_program):
         execution_options=ExecutionOptions.default()
     )
     assert qpu_exec_response == pickle.loads(pickle.dumps(qpu_exec_response))
+
