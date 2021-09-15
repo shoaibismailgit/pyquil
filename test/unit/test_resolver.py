@@ -445,3 +445,4 @@ class TestParameterSlots:
         program = Program(Declare("theta", "REAL", 1), RX(MemoryReference("theta", 0), 0).dagger())
         with pytest.raises(ValueError, match="modifiers are not supported.*DAGGER"):
             expand_program(program)
+
