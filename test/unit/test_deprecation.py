@@ -141,3 +141,4 @@ def test_importing_a_deprecated_module_warns_by_default(module: str):
     assert (
         f"<string>:1: PyQuilDeprecationWarning: The module {module} is deprecated and will be removed" in result.stderr
     )
+
