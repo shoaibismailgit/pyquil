@@ -81,3 +81,4 @@ def test_substitute_memory_reference():
     a = MemoryReference("a", 0, declared_size=1)
 
     assert np.allclose(substitute_array([quil_sin(a), quil_cos(a)], {a: 5}), [np.sin(5), np.cos(5)])
+
