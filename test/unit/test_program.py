@@ -209,4 +209,3 @@ def test_delay_conversions():
     p += DelayFrames([f], 8)
     for x in p:
         assert isinstance(x, DelayFrames), type(x)
-

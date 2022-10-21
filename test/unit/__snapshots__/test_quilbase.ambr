@@ -692,4 +692,3 @@
 # name: TestUnaryClassicalInstruction.test_out[NOT-target1]
   'NOT b[1]'
 # ---
-

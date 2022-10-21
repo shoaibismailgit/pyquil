@@ -407,4 +407,3 @@ def test_is_valid_quantum_state():
     with pytest.raises(ValueError):
         # not Hermitian
         _is_valid_quantum_state(np.array([[0, 1], [1, 0]]))
-

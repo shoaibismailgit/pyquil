@@ -137,4 +137,3 @@ is a type alias of ``qcs-sdk-python``'s ``TranslationOptions``. See its `API doc
 
     # Option 2: Apply to one specific compilation
     qc.compiler.native_quil_to_executable(program, api_options=api_options)
-

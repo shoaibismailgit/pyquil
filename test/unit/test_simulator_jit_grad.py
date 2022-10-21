@@ -410,4 +410,3 @@ class TestAbstractInterface:
             ProgramSimulator(Program(X(0)))  # type: ignore[abstract]
         with pytest.raises(TypeError, match="abstract"):
             _DifferentiableSimulator(Program(X(0)))  # type: ignore[abstract]
-

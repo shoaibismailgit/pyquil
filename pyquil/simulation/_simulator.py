@@ -1840,4 +1840,3 @@ __all__ = [
     "Resolution",
     "TrajectorySimulator",
 ]
-

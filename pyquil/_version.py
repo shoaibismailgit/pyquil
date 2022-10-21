@@ -24,4 +24,3 @@ DOCS_URL = f"https://pyquil-docs.rigetti.com/en/{pyquil_docs_version}"
 """
 The URL of the hosted docs for this package version.
 """
-
